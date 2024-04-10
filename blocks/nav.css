@@ -1,3 +1,12 @@
+@keyframes change-color {
+  from {
+    color: #000;
+  }
+  to {
+    color: #2f80ed;
+  }
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -21,4 +30,10 @@
 
 .nav__link {
   font-weight: 500;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav__link:hover {
+  animation: 1s forwards linear change-color;
 }
