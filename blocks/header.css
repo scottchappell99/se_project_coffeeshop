@@ -63,4 +63,5 @@
 
 .header__paragraph_type_address {
   align-self: flex-end;
+  z-index: 1;
 }
