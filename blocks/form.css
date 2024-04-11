@@ -29,6 +29,8 @@
   line-height: 30px;
   border-radius: 4px;
   border-color: #838383;
+  border-width: 1px;
+  border-style: solid;
   width: 371px;
   max-width: 385px;
   height: 60px;
@@ -46,6 +48,7 @@
   font-weight: 500;
   border-radius: 4px;
   border-color: #838383;
+  border-style: none;
   width: 385px;
   height: 60px;
   max-width: 385px;
@@ -65,6 +68,6 @@
   margin-right: 12px;
 }
 
-.form__label_checkbox {
+.form__label_type_checkbox {
   align-self: center;
 }

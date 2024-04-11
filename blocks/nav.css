@@ -1,4 +1,4 @@
-@keyframes change-color {
+@keyframes nav-change {
   from {
     color: #000;
   }
@@ -35,5 +35,5 @@
 }
 
 .nav__link:hover {
-  animation: 1s forwards linear change-color;
+  animation: 1s forwards linear nav-change;
 }

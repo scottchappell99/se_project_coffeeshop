@@ -1,4 +1,4 @@
-@keyframes change-color {
+@keyframes footer-change {
   from {
     color: #fff;
   }
@@ -57,7 +57,7 @@
 }
 
 .footer__social-link:hover {
-  animation: 1s forwards linear change-color;
+  animation: 1s forwards linear footer-change;
 }
 
 .footer__copyright {

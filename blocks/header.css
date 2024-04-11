@@ -1,9 +1,5 @@
 .header {
-  background-color: #fff;
-  background-image: url("../images/background_header.svg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url("../images/background_header.svg") center/cover no-repeat #fff;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -12,6 +8,7 @@
   margin: 0;
   padding: 30px 80px 40px;
   position: relative;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -53,7 +50,10 @@
 
 .header__footer {
   margin: auto 0 0;
+  display: flex;
+  justify-content: space-between;
 }
+
 .header__paragraph {
   font-weight: 500;
   color: #838383;
@@ -61,8 +61,6 @@
   padding: 0;
 }
 
-.header__paragraph:last-of-type {
-  position: absolute;
-  bottom: 40px;
-  right: 80px;
+.header__paragraph_type_address {
+  align-self: flex-end;
 }

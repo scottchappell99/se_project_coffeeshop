@@ -1,10 +1,6 @@
 .menu {
-  background-color: #fff;
-  background-image: url("../images/background_menu.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding: 100px;
+  background: url("../images/background_menu.svg") center/cover no-repeat #fff;
+  padding: 100px 0;
   position: relative;
   z-index: 1;
 }
@@ -19,7 +15,7 @@
 }
 
 .menu__subtitle {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   margin: 24px auto 0;

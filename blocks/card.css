@@ -8,7 +8,7 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
-  margin: 0 0 16px;
+  margin: 0 0 32px;
 }
 
 .card__list {
@@ -18,10 +18,14 @@
 }
 
 .card__list-item {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   display: flex;
-  margin: 16px 0 0;
+  margin: 0 0 16px;
   flex-grow: 0;
+}
+
+.card__list-item:last-of-type {
+  margin: 0;
 }
 
 .card__list-divider {

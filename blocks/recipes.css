@@ -1,8 +1,6 @@
 .recipes {
-  background-color: #0a2750;
-  background-image: url("../images/background_recipes.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url("../images/background_recipes.svg") center/cover no-repeat
+    #0a2750;
   padding: 100px 80px 215px;
 }
 
@@ -30,11 +28,14 @@
   column-gap: 40px;
   justify-content: center;
   flex-wrap: wrap;
+  list-style-type: none;
 }
 
 .recipes__iframe {
   width: 480px;
   height: 273px;
+  border-style: none;
+  border-width: 0;
 }
 
 .recipes__video-caption {
